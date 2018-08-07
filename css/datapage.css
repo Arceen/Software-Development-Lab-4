@@ -1,0 +1,133 @@
+
+body {
+  background: url(../images/SignUpBackground1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	overflow:none;
+	
+	
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #2E2E2E;
+  
+ }
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 29px 31px 29px 31px;
+  font-style: bold;
+
+}
+
+.nav #us a:hover {
+  background-color: #eeeeee;
+  color: rgba(255, 0, 0, 0.7);
+}
+#home{
+	font-size: 30px;
+	padding: 20px 20px 20px 50px;
+	font-family: 'Impact';
+}
+
+
+.nav .icon {
+  display: none;
+}
+.user{
+	float:right;
+	padding-right:5%;
+	
+}
+.phone{
+	text-align: center;
+	height:auto;
+	width:80em;
+	margin: auto;
+	margin-top:3em;
+	padding: 30 20 30 20;
+	text-shadow: 1px 1px hotred;
+	background:linear-gradient(to right, #DDDDDD, #EEEEEE);
+	border-radius: 10px;
+	margin-bottom:2em;
+	padding-top:1em;
+	padding-bottom: 2em;
+	
+}
+
+.imgdiv{
+	float: left;
+	clear: left;
+	height: auto;
+	padding-left: 14em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	
+}
+
+.infodiv{
+	float: right;
+	padding-right: 25em;
+	padding-top: 5em;
+	padding-bottom: 2em;
+	clear: right;
+	margin-left: 2em;
+	text-align:left;
+}
+.infodiv h2{
+	
+}
+#s1{
+	color: #0ADD14;
+}
+#s2{
+	color: #AA0D14;
+}
+.table {
+	clear: both;
+  table-layout: fixed;
+  width: 75%;
+  margin: auto;
+}
+.table td {
+  overflow: none;
+  text-align: left;
+  border: 2px solid black;
+  padding: 10px !important;
+  padding-left: 14px !important;
+}
+.row-fet{
+	width:30%;
+	
+}
+.lab{
+	font-weight: bold;
+	
+}
+
+.footer {
+  position: relative;
+  float: right;
+  clear:right;
+  font-style: bold !important;
+  font-size: 1.3em !important;
+  height:60px;
+
+  margin-right: 1.2em!important;
+}
+.footer a{
+	color:rgba(255, 0, 0, 0.7);
+	text-decoration: none;
+}
+.footer a:hover{
+	color: rgba(255, 0, 0, 1);
+}

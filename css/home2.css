@@ -1,0 +1,64 @@
+
+html {
+  background: url(../images/SignUpBackground1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	overflow:none;
+	box-sizing: border-box;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #2E2E2E;
+  
+ }
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 29px 31px 29px 31px;
+  font-style: bold;
+
+}
+
+.nav #us a:hover {
+  background-color: #eeeeee;
+  color: rgba(255, 0, 0, 0.7);
+}
+#home{
+	font-size: 30px;
+	padding: 20px 20px 20px 50px;
+	font-family: 'Impact';
+}
+
+
+.nav .icon {
+  display: none;
+}
+.user{
+	float:right;
+	padding-right:5%;
+	
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: .5em !important;
+  text-align: center;
+}
+.footer a{
+	color:rgba(255, 0, 0, 0.7);
+	text-decoration: none;
+}
+.footer a:hover{
+	color: rgba(255, 0, 0, 1);
+}

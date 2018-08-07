@@ -1,0 +1,84 @@
+body{
+	background: url(../images/SignUpBackground1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	overflow:none;
+	box-sizing: border-box;
+}
+.nav {
+  overflow: hidden;
+  background-color: #2E2E2E;
+ }
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 29px 31px 29px 31px;
+  font-style: bold;
+}
+
+#home{
+	font-size: 30px;
+	padding: 20px 20px 20px 50px;
+	font-family: 'Impact';
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav .icon {
+  display: none;
+}
+#header {
+	
+  overflow: hidden;
+  background-color: #2E2E2E;
+  width:100%;
+  height:100%;
+  font-family: 'Impact';
+  font-size: 30px;
+ }
+
+#header a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 29px 31px 29px 31px;
+  font-style: bold;
+}
+.signup-form{
+		
+        text-align: center;
+		height:43em;
+		width:35em;
+		margin: auto;
+		margin-top:3em;
+        padding: 20 10 20 10;
+		text-shadow: 1px 1px hotred;
+        background:linear-gradient(to right, #fc466b, #3f5efb);
+        border-radius: 10px;
+		margin-bottom:5em;
+		padding-top:1em;
+	}
+
+#para{
+	
+	float: left;
+	margin-top: 4em;
+	padding-left: 3em;
+	padding-right: 4em;
+	text-align: left;
+}
+h1{
+	
+}

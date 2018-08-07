@@ -1,0 +1,288 @@
+
+body {
+  background: url(../images/SignUpBackground1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	overflow:none;
+	box-sizing: border-box;
+}
+
+#header {
+	
+  overflow: hidden;
+  background-color: #2E2E2E;
+  width:100%;
+  height:100%;
+  font-family: 'Impact';
+  font-size: 30px;
+ }
+
+#header a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 29px 31px 29px 31px;
+  font-style: bold;
+}
+
+.tabclass{
+		text-align: center;
+		height:auto;
+		width:auto;
+		margin: auto;
+		margin-top:3em;
+        padding: 20 10 20 10;
+		text-shadow: 1px 1px hotred;
+        background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        border-radius: 10px;
+		margin-bottom: 4em;
+	
+}
+.changetabs{
+	background-color: #2e2e2e;
+	padding: 8px 16px;
+	text-decoration: none;
+	width: 12em;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 3.5em;
+	margin-bottom: 0px;
+ }
+ .changetabs:hover{
+	background: linear-gradient(to right, #333333, #dddddd);
+	color: #333333;
+	border: 3px solid #444444;
+ }
+ .changetabs:focus{
+ 
+	background: linear-gradient(to right, #333333, #dddddd);
+	color: #333333;
+	border-bottom: 4px solid #111111;
+ }
+ .tabwindow{
+	width: auto;
+	height: auto; 
+	margin-top: 1px;
+	margin-left:2em;
+	margin-right:2em;
+	bottom:0;
+}
+.btns{
+	display: inline-block;
+}
+#bu{
+	float:left;
+}
+
+#aa{
+	float:left;
+}
+
+#ai{
+	float: left;
+}
+ #su{
+	 float: both;
+ }
+ #BanUser{
+	
+	
+	width:100%;
+	height: 100%;
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+ 
+ #AddAdmin{
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width:100%;
+	height: 100%;
+	display:none;
+ }
+ 
+ #AddItems{
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 100%;
+	height: 100%;
+	display: none;
+ }
+.signup-form{
+        text-align: center;
+		height:45em;
+		width:35em;
+		margin: auto;
+		margin-top:1em;
+        padding: 20 10 20 10;
+		text-shadow: 1px 1px hotred;
+        
+        border-radius: 10px;
+   }
+.signup-form1{
+	text-align: center;
+	height:50em;
+	width:100%;
+	margin: auto;
+	margin-top:1em;
+	padding: 20 10 20 10;
+	text-shadow: 1px 1px hotred;
+	
+	border-radius: 10px;
+}
+.submit{
+	background-color: #fc2c07;
+	padding: 8px 16px;
+	border-radius: 7px;
+	text-decoration: none;
+	width: 10em;
+	display: inline-block;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 1.5em;
+	transition-timing-function: ease;
+	-webkit-transition: color 1s, width 1s, background-color 1s; 
+    transition: color 1s, width 1s, background-color 1s;
+	
+ }
+ .submit:hover{
+	 width: 12em;
+	 background: #00df02;
+	 color: #222222;
+	 border-color: #222222;
+ }
+	
+
+input[type=date]:invalid,input[type=file]:invalid,input[type=text]:invalid, input[type=email]:invalid, input[type=password]:invalid{
+	
+	width: 18em;
+	height:auto;
+	margin:auto;
+	padding: 7px 15px 7px 15px;
+	border: 3px solid #ff3f3f;
+	border-radius: 15px;
+	padding-left: 4em;
+	margin-top:1em;
+	-webkit-transition: width .5s; 
+    transition: width .5s;
+}
+
+input[type=date]:valid,input[type=file]:valid,input[type=text]:valid, input[type=email]:valid, input[type=password]:valid{
+	width: 18em;
+	height:auto;
+	margin:auto;
+	padding: 7px 15px 7px 15px;
+	border: 3px solid #00FF00;
+	border-radius: 15px;
+	padding-left: 4em;
+	margin-top:1em;
+	-webkit-transition: width .5s; 
+    transition: width .5s;
+}
+
+input[type=date]:focus,input[type=file]:focus, input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+	width: 23em;
+	height:auto;
+	margin:auto;
+	padding: 7px 15px 7px 15px;
+	border: 3px solid #7def70;
+	border-radius: 15px;
+	padding-left: 4em;
+	margin-top:1em;
+	-webkit-transition: width .5s; 
+    transition: width .5s;
+}
+
+
+#email, #password, #confirmpassword, #FirstName, #LastName{
+position:static;	
+margin-left: -10px;
+}
+.glyphicon, .fa{
+	margin-right: -33px;
+}
+.eicon, .cfpicon, .picon, .ficon, .licon{
+	margin-left:26px;
+}
+.head{
+	padding-top:1.5em;
+	margin-bottom:3em;
+	color: #DDD;
+    text-shadow: 2px 2px 4px #444;
+	
+}
+.head2{
+	padding-top:1em;
+	margin-bottom:1em;
+	color: #DDD;
+    text-shadow: 2px 2px 4px #444;
+	
+}
+.Login{
+	padding-top:1em;
+}
+.Login a:link{
+	color: red;
+	text-decoration:none;
+}
+.Login a:visited{
+	color: black;
+	text-decoration:none;
+}
+.Login a:hover{
+	color:#ff662f;
+	text-decoration:none;
+}
+h3{
+	color: white;
+}
+#one{
+	margin-top: 15em;
+	
+}
+#home{
+	font-size: 30px;
+	padding: 20px 20px 20px 50px;
+	font-family: 'Impact';
+}
+.rows{
+	margin-top:2em;
+}
+.phn{
+	
+	margin-left: 2.4em !important;
+}
+#lastrow{
+	margin-left: 6.2em !important;
+	overflow:none;
+}
+
+#des{
+	float: left;
+	width: 30em !important;
+	height: 5em;
+	
+}
+#img{
+	color:#222222;
+	background:linear-gradient(to right, #fc466b, #3f5efb);
+	float: left;
+}
+
+#usmid{
+	margin-left: -3em;
+}
